@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW15" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cGl-Gn-QLe">
+                                <rect key="frame" x="304" y="304" width="128" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="1000px-Red_star.png" translatesAutoresizingMaskIntoConstraints="NO" id="JPt-sT-Gl4">
+                                        <rect key="frame" x="25" y="34" width="78" height="60"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="JPt-sT-Gl4" secondAttribute="height" multiplier="1:1" id="Q7n-GK-PRh"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="JPt-sT-Gl4" secondAttribute="bottom" constant="24" id="3PS-wh-ch2"/>
+                                    <constraint firstItem="JPt-sT-Gl4" firstAttribute="top" secondItem="cGl-Gn-QLe" secondAttribute="top" constant="24" id="PBd-pH-AUu"/>
+                                    <constraint firstAttribute="trailing" secondItem="JPt-sT-Gl4" secondAttribute="trailing" constant="24" id="rLV-oE-PCu"/>
+                                    <constraint firstItem="JPt-sT-Gl4" firstAttribute="leading" secondItem="cGl-Gn-QLe" secondAttribute="leading" constant="24" id="xZw-mH-10Y"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tm4-ag-Dm3">
+                                <rect key="frame" x="304" y="168" width="128" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CwQ-Ja-dwh">
+                                <rect key="frame" x="56" y="168" width="128" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Free_Blue_Star.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="WzJ-80-J0R">
+                                        <rect key="frame" x="24" y="24" width="80" height="80"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="WzJ-80-J0R" secondAttribute="height" multiplier="1:1" id="8kM-FE-dul"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="WzJ-80-J0R" secondAttribute="bottom" constant="24" id="6Vg-az-Pro"/>
+                                    <constraint firstAttribute="trailing" secondItem="WzJ-80-J0R" secondAttribute="trailing" constant="24" id="JIh-0i-z6m"/>
+                                    <constraint firstItem="WzJ-80-J0R" firstAttribute="leading" secondItem="CwQ-Ja-dwh" secondAttribute="leading" constant="24" id="fLZ-Og-VID"/>
+                                    <constraint firstItem="WzJ-80-J0R" firstAttribute="top" secondItem="CwQ-Ja-dwh" secondAttribute="top" constant="24" id="vw3-h6-Gx2"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I8d-z3-xZG">
+                                <rect key="frame" x="56" y="304" width="128" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cGl-Gn-QLe" firstAttribute="width" secondItem="CwQ-Ja-dwh" secondAttribute="width" id="6lA-Q1-ivT"/>
+                            <constraint firstItem="I8d-z3-xZG" firstAttribute="top" secondItem="CwQ-Ja-dwh" secondAttribute="bottom" id="7dm-rB-2QD"/>
+                            <constraint firstItem="Tm4-ag-Dm3" firstAttribute="width" secondItem="CwQ-Ja-dwh" secondAttribute="width" id="CqK-2k-tPw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cGl-Gn-QLe" secondAttribute="bottom" id="GIP-6f-Idq"/>
+                            <constraint firstItem="I8d-z3-xZG" firstAttribute="height" secondItem="CwQ-Ja-dwh" secondAttribute="height" id="HE3-Zs-5uw"/>
+                            <constraint firstItem="Tm4-ag-Dm3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ILX-Zw-EYf"/>
+                            <constraint firstItem="cGl-Gn-QLe" firstAttribute="height" secondItem="CwQ-Ja-dwh" secondAttribute="height" id="Kpg-jD-7ht"/>
+                            <constraint firstItem="CwQ-Ja-dwh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Nrp-Sa-OIL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="I8d-z3-xZG" secondAttribute="bottom" id="QM3-7v-Rwv"/>
+                            <constraint firstItem="cGl-Gn-QLe" firstAttribute="leading" secondItem="I8d-z3-xZG" secondAttribute="trailing" id="U8d-bq-Ch0"/>
+                            <constraint firstItem="Tm4-ag-Dm3" firstAttribute="leading" secondItem="CwQ-Ja-dwh" secondAttribute="trailing" id="Whz-ve-ph7"/>
+                            <constraint firstAttribute="trailing" secondItem="cGl-Gn-QLe" secondAttribute="trailing" id="e69-BB-fgY"/>
+                            <constraint firstItem="cGl-Gn-QLe" firstAttribute="top" secondItem="Tm4-ag-Dm3" secondAttribute="bottom" id="g9V-IG-p9V"/>
+                            <constraint firstItem="cGl-Gn-QLe" firstAttribute="leading" secondItem="I8d-z3-xZG" secondAttribute="trailing" id="hQc-bn-qGI"/>
+                            <constraint firstItem="Tm4-ag-Dm3" firstAttribute="leading" secondItem="CwQ-Ja-dwh" secondAttribute="trailing" id="kDk-y7-TrD"/>
+                            <constraint firstItem="I8d-z3-xZG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rVr-qX-OW5"/>
+                            <constraint firstItem="I8d-z3-xZG" firstAttribute="width" secondItem="CwQ-Ja-dwh" secondAttribute="width" id="xFc-by-UX1"/>
+                            <constraint firstItem="CwQ-Ja-dwh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xHG-fe-OjR"/>
+                            <constraint firstItem="Tm4-ag-Dm3" firstAttribute="height" secondItem="CwQ-Ja-dwh" secondAttribute="height" id="yUS-M4-lNA"/>
+                            <constraint firstAttribute="trailing" secondItem="Tm4-ag-Dm3" secondAttribute="trailing" id="yeM-LO-Tad"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="399"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1000px-Red_star.png" width="1000" height="951"/>
+        <image name="Free_Blue_Star.jpg" width="547" height="513"/>
+    </resources>
+</document>

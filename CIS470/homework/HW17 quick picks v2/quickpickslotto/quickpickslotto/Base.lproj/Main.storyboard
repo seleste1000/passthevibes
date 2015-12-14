@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="quickpickslotto" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Quick Picks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MoY-8D-kHP">
+                                <rect key="frame" x="214" y="52" width="173" height="32.5"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="173" id="Xf5-Tn-SMT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.058823529409999999" green="0.094117647060000004" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Range (from 1 to x)" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibd-Dw-fjr">
+                                <rect key="frame" x="300" y="104.5" width="280" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Number of Picks" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25t-yh-1Tc">
+                                <rect key="frame" x="20" y="104.5" width="280" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="V3a-Rd-1Pk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2uP-Wa-IuE">
+                                <rect key="frame" x="108" y="133" width="104" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="yv7-2y-Af1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="yv7-2y-Af1"/>
+                                    </mask>
+                                </variation>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NOm-fA-Cwi">
+                                <rect key="frame" x="161" y="460.5" width="278" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.094117647060000004" blue="0.51764705879999995" alpha="0.49577702702702703" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="DMo-R0-ACK"/>
+                                    <constraint firstAttribute="width" constant="278" id="Fh2-3b-U7s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Odds of Winning" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tim-Lp-CoG">
+                                <rect key="frame" x="106" y="529" width="108" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="2iT-Jq-MVn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 in " textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dud-UM-qde">
+                                <rect key="frame" x="386" y="533" width="108" height="17"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFh-cx-lQv">
+                                <rect key="frame" x="248" y="184" width="104" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="104" id="0GX-u8-JCm"/>
+                                </constraints>
+                                <state key="normal" title="Generate Picks">
+                                    <color key="titleShadowColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.50427576009999997" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="genPicks:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t9Y-CL-mP8"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MXX-cW-y9h">
+                                <rect key="frame" x="388" y="133" width="104" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Your picks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIo-zp-gjr">
+                                <rect key="frame" x="172" y="431" width="257" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="257" id="66b-QX-LaU"/>
+                                    <constraint firstAttribute="height" constant="21" id="GTE-ol-xGh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.74780339002609253" green="0.76524204015731812" blue="0.9393799901008606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ibd-Dw-fjr" firstAttribute="width" secondItem="25t-yh-1Tc" secondAttribute="width" id="4WN-VD-kCD"/>
+                            <constraint firstItem="ibd-Dw-fjr" firstAttribute="baseline" secondItem="25t-yh-1Tc" secondAttribute="baseline" id="4ce-Jj-fF3"/>
+                            <constraint firstItem="MXX-cW-y9h" firstAttribute="centerX" secondItem="ibd-Dw-fjr" secondAttribute="centerX" id="6lX-em-3Bc"/>
+                            <constraint firstItem="Dud-UM-qde" firstAttribute="width" secondItem="Tim-Lp-CoG" secondAttribute="width" id="ABe-qa-sRv"/>
+                            <constraint firstItem="ibd-Dw-fjr" firstAttribute="height" secondItem="25t-yh-1Tc" secondAttribute="height" id="CTy-eS-qdk"/>
+                            <constraint firstItem="Tim-Lp-CoG" firstAttribute="top" relation="lessThanOrEqual" secondItem="NOm-fA-Cwi" secondAttribute="bottom" constant="19" id="CxS-IU-AjZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ibd-Dw-fjr" secondAttribute="trailing" id="EYF-GA-Rpv"/>
+                            <constraint firstItem="ibd-Dw-fjr" firstAttribute="centerY" secondItem="25t-yh-1Tc" secondAttribute="centerY" id="Frj-GN-cfd"/>
+                            <constraint firstItem="MoY-8D-kHP" firstAttribute="top" relation="lessThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="JeO-Sb-XHf"/>
+                            <constraint firstItem="2uP-Wa-IuE" firstAttribute="centerX" secondItem="25t-yh-1Tc" secondAttribute="centerX" id="LuW-Sa-NcD"/>
+                            <constraint firstItem="Tim-Lp-CoG" firstAttribute="centerX" secondItem="25t-yh-1Tc" secondAttribute="centerX" id="Or5-NL-6Tf"/>
+                            <constraint firstItem="2uP-Wa-IuE" firstAttribute="top" secondItem="25t-yh-1Tc" secondAttribute="bottom" constant="7.5" id="T4s-So-mhv"/>
+                            <constraint firstItem="25t-yh-1Tc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="U9Y-Eo-0yo"/>
+                            <constraint firstItem="MXX-cW-y9h" firstAttribute="centerY" secondItem="2uP-Wa-IuE" secondAttribute="centerY" id="UZ8-g0-w8B"/>
+                            <constraint firstItem="ibd-Dw-fjr" firstAttribute="leading" secondItem="25t-yh-1Tc" secondAttribute="trailing" id="Wur-6v-BiO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Tim-Lp-CoG" secondAttribute="bottom" constant="50" id="YZp-a5-CsA"/>
+                            <constraint firstItem="TFh-cx-lQv" firstAttribute="centerX" secondItem="MoY-8D-kHP" secondAttribute="centerX" id="ZDJ-bj-sll"/>
+                            <constraint firstItem="MoY-8D-kHP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d2C-md-HI1"/>
+                            <constraint firstItem="NOm-fA-Cwi" firstAttribute="top" secondItem="XIo-zp-gjr" secondAttribute="bottom" constant="8" symbolic="YES" id="dsm-H9-OHx"/>
+                            <constraint firstItem="ibd-Dw-fjr" firstAttribute="leading" secondItem="25t-yh-1Tc" secondAttribute="trailing" id="eb1-Dd-suI"/>
+                            <constraint firstItem="Dud-UM-qde" firstAttribute="centerX" secondItem="ibd-Dw-fjr" secondAttribute="centerX" id="fJf-1b-q7M"/>
+                            <constraint firstItem="NOm-fA-Cwi" firstAttribute="centerX" secondItem="XIo-zp-gjr" secondAttribute="centerX" id="ggo-Dq-0Sj"/>
+                            <constraint firstItem="XIo-zp-gjr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jVW-8i-odl"/>
+                            <constraint firstItem="TFh-cx-lQv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jxG-kw-Z2s"/>
+                            <constraint firstItem="TFh-cx-lQv" firstAttribute="centerX" secondItem="XIo-zp-gjr" secondAttribute="centerX" id="mH7-TW-K4b"/>
+                            <constraint firstItem="Dud-UM-qde" firstAttribute="bottom" secondItem="Tim-Lp-CoG" secondAttribute="bottom" id="pNK-jo-MAs"/>
+                            <constraint firstItem="ibd-Dw-fjr" firstAttribute="top" relation="lessThanOrEqual" secondItem="MoY-8D-kHP" secondAttribute="bottom" constant="20" id="qZV-zd-T9a"/>
+                            <constraint firstItem="XIo-zp-gjr" firstAttribute="top" relation="greaterThanOrEqual" secondItem="TFh-cx-lQv" secondAttribute="bottom" constant="8" id="twe-oh-Rkw"/>
+                            <constraint firstItem="TFh-cx-lQv" firstAttribute="top" secondItem="25t-yh-1Tc" secondAttribute="bottom" constant="40" id="xyI-VO-pBM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="picks" destination="NOm-fA-Cwi" id="SGA-Z4-qu1"/>
+                        <outlet property="tNumPicks" destination="2uP-Wa-IuE" id="xiV-Qn-vEJ"/>
+                        <outlet property="tRange" destination="MXX-cW-y9h" id="aXe-MI-s11"/>
+                        <outlet property="winningOdds" destination="Dud-UM-qde" id="7PZ-AK-Yx8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381" y="279"/>
+        </scene>
+    </scenes>
+</document>

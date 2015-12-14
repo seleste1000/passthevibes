@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4831AD031BF408910038B2A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4831AD011BF408910038B2A2 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		4831AD401BF423100038B2A2 /* QuickPicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4831AD3F1BF423100038B2A2 /* QuickPicks.swift */; settings = {ASSET_TAGS = (); }; };
+		4831AD461BF4458E0038B2A2 /* Icon in Resources */ = {isa = PBXBuildFile; fileRef = 4831AD451BF4458E0038B2A2 /* Icon */; settings = {ASSET_TAGS = (); }; };
+		48EF76101BF2CC1B00891E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF760F1BF2CC1B00891E64 /* AppDelegate.swift */; };
+		48EF76121BF2CC1B00891E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF76111BF2CC1B00891E64 /* ViewController.swift */; };
+		48EF76151BF2CC1B00891E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EF76131BF2CC1B00891E64 /* Main.storyboard */; };
+		48EF76171BF2CC1B00891E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EF76161BF2CC1B00891E64 /* Assets.xcassets */; };
+		48EF76251BF2CC1B00891E64 /* quickpickslottoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF76241BF2CC1B00891E64 /* quickpickslottoTests.swift */; };
+		48EF76301BF2CC1B00891E64 /* quickpickslottoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EF762F1BF2CC1B00891E64 /* quickpickslottoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48EF76211BF2CC1B00891E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EF76041BF2CC1B00891E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48EF760B1BF2CC1B00891E64;
+			remoteInfo = quickpickslotto;
+		};
+		48EF762C1BF2CC1B00891E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EF76041BF2CC1B00891E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48EF760B1BF2CC1B00891E64;
+			remoteInfo = quickpickslotto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4831AD021BF408910038B2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4831AD3F1BF423100038B2A2 /* QuickPicks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickPicks.swift; sourceTree = "<group>"; };
+		4831AD451BF4458E0038B2A2 /* Icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Icon; sourceTree = "<group>"; };
+		48EF760C1BF2CC1B00891E64 /* quickpickslotto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickpickslotto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EF760F1BF2CC1B00891E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48EF76111BF2CC1B00891E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48EF76141BF2CC1B00891E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48EF76161BF2CC1B00891E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48EF761B1BF2CC1B00891E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EF76201BF2CC1B00891E64 /* quickpickslottoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quickpickslottoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EF76241BF2CC1B00891E64 /* quickpickslottoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickpickslottoTests.swift; sourceTree = "<group>"; };
+		48EF76261BF2CC1B00891E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EF762B1BF2CC1B00891E64 /* quickpickslottoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quickpickslottoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EF762F1BF2CC1B00891E64 /* quickpickslottoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickpickslottoUITests.swift; sourceTree = "<group>"; };
+		48EF76311BF2CC1B00891E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48EF76091BF2CC1B00891E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EF761D1BF2CC1B00891E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EF76281BF2CC1B00891E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48EF76031BF2CC1B00891E64 = {
+			isa = PBXGroup;
+			children = (
+				48EF760E1BF2CC1B00891E64 /* quickpickslotto */,
+				48EF76231BF2CC1B00891E64 /* quickpickslottoTests */,
+				48EF762E1BF2CC1B00891E64 /* quickpickslottoUITests */,
+				48EF760D1BF2CC1B00891E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48EF760D1BF2CC1B00891E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48EF760C1BF2CC1B00891E64 /* quickpickslotto.app */,
+				48EF76201BF2CC1B00891E64 /* quickpickslottoTests.xctest */,
+				48EF762B1BF2CC1B00891E64 /* quickpickslottoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48EF760E1BF2CC1B00891E64 /* quickpickslotto */ = {
+			isa = PBXGroup;
+			children = (
+				4831AD451BF4458E0038B2A2 /* Icon */,
+				4831AD3F1BF423100038B2A2 /* QuickPicks.swift */,
+				48EF760F1BF2CC1B00891E64 /* AppDelegate.swift */,
+				48EF76111BF2CC1B00891E64 /* ViewController.swift */,
+				48EF76131BF2CC1B00891E64 /* Main.storyboard */,
+				48EF76161BF2CC1B00891E64 /* Assets.xcassets */,
+				4831AD011BF408910038B2A2 /* LaunchScreen.storyboard */,
+				48EF761B1BF2CC1B00891E64 /* Info.plist */,
+			);
+			path = quickpickslotto;
+			sourceTree = "<group>";
+		};
+		48EF76231BF2CC1B00891E64 /* quickpickslottoTests */ = {
+			isa = PBXGroup;
+			children = (
+				48EF76241BF2CC1B00891E64 /* quickpickslottoTests.swift */,
+				48EF76261BF2CC1B00891E64 /* Info.plist */,
+			);
+			path = quickpickslottoTests;
+			sourceTree = "<group>";
+		};
+		48EF762E1BF2CC1B00891E64 /* quickpickslottoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48EF762F1BF2CC1B00891E64 /* quickpickslottoUITests.swift */,
+				48EF76311BF2CC1B00891E64 /* Info.plist */,
+			);
+			path = quickpickslottoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48EF760B1BF2CC1B00891E64 /* quickpickslotto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EF76341BF2CC1B00891E64 /* Build configuration list for PBXNativeTarget "quickpickslotto" */;
+			buildPhases = (
+				48EF76081BF2CC1B00891E64 /* Sources */,
+				48EF76091BF2CC1B00891E64 /* Frameworks */,
+				48EF760A1BF2CC1B00891E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quickpickslotto;
+			productName = quickpickslotto;
+			productReference = 48EF760C1BF2CC1B00891E64 /* quickpickslotto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48EF761F1BF2CC1B00891E64 /* quickpickslottoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EF76371BF2CC1B00891E64 /* Build configuration list for PBXNativeTarget "quickpickslottoTests" */;
+			buildPhases = (
+				48EF761C1BF2CC1B00891E64 /* Sources */,
+				48EF761D1BF2CC1B00891E64 /* Frameworks */,
+				48EF761E1BF2CC1B00891E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EF76221BF2CC1B00891E64 /* PBXTargetDependency */,
+			);
+			name = quickpickslottoTests;
+			productName = quickpickslottoTests;
+			productReference = 48EF76201BF2CC1B00891E64 /* quickpickslottoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48EF762A1BF2CC1B00891E64 /* quickpickslottoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EF763A1BF2CC1B00891E64 /* Build configuration list for PBXNativeTarget "quickpickslottoUITests" */;
+			buildPhases = (
+				48EF76271BF2CC1B00891E64 /* Sources */,
+				48EF76281BF2CC1B00891E64 /* Frameworks */,
+				48EF76291BF2CC1B00891E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EF762D1BF2CC1B00891E64 /* PBXTargetDependency */,
+			);
+			name = quickpickslottoUITests;
+			productName = quickpickslottoUITests;
+			productReference = 48EF762B1BF2CC1B00891E64 /* quickpickslottoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48EF76041BF2CC1B00891E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Seleste Braddock";
+				TargetAttributes = {
+					48EF760B1BF2CC1B00891E64 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = EPN3HP33AJ;
+					};
+					48EF761F1BF2CC1B00891E64 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = EPN3HP33AJ;
+						TestTargetID = 48EF760B1BF2CC1B00891E64;
+					};
+					48EF762A1BF2CC1B00891E64 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = EPN3HP33AJ;
+						TestTargetID = 48EF760B1BF2CC1B00891E64;
+					};
+				};
+			};
+			buildConfigurationList = 48EF76071BF2CC1B00891E64 /* Build configuration list for PBXProject "quickpickslotto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48EF76031BF2CC1B00891E64;
+			productRefGroup = 48EF760D1BF2CC1B00891E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48EF760B1BF2CC1B00891E64 /* quickpickslotto */,
+				48EF761F1BF2CC1B00891E64 /* quickpickslottoTests */,
+				48EF762A1BF2CC1B00891E64 /* quickpickslottoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48EF760A1BF2CC1B00891E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4831AD031BF408910038B2A2 /* LaunchScreen.storyboard in Resources */,
+				4831AD461BF4458E0038B2A2 /* Icon in Resources */,
+				48EF76171BF2CC1B00891E64 /* Assets.xcassets in Resources */,
+				48EF76151BF2CC1B00891E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EF761E1BF2CC1B00891E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EF76291BF2CC1B00891E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48EF76081BF2CC1B00891E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EF76121BF2CC1B00891E64 /* ViewController.swift in Sources */,
+				4831AD401BF423100038B2A2 /* QuickPicks.swift in Sources */,
+				48EF76101BF2CC1B00891E64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EF761C1BF2CC1B00891E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EF76251BF2CC1B00891E64 /* quickpickslottoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EF76271BF2CC1B00891E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EF76301BF2CC1B00891E64 /* quickpickslottoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48EF76221BF2CC1B00891E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48EF760B1BF2CC1B00891E64 /* quickpickslotto */;
+			targetProxy = 48EF76211BF2CC1B00891E64 /* PBXContainerItemProxy */;
+		};
+		48EF762D1BF2CC1B00891E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48EF760B1BF2CC1B00891E64 /* quickpickslotto */;
+			targetProxy = 48EF762C1BF2CC1B00891E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4831AD011BF408910038B2A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4831AD021BF408910038B2A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		48EF76131BF2CC1B00891E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48EF76141BF2CC1B00891E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48EF76321BF2CC1B00891E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48EF76331BF2CC1B00891E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48EF76351BF2CC1B00891E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = quickpickslotto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selestebraddock.quickpickslotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48EF76361BF2CC1B00891E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = quickpickslotto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selestebraddock.quickpickslotto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48EF76381BF2CC1B00891E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = quickpickslottoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selestebraddock.quickpickslottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quickpickslotto.app/quickpickslotto";
+			};
+			name = Debug;
+		};
+		48EF76391BF2CC1B00891E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = quickpickslottoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selestebraddock.quickpickslottoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quickpickslotto.app/quickpickslotto";
+			};
+			name = Release;
+		};
+		48EF763B1BF2CC1B00891E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = quickpickslottoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selestebraddock.quickpickslottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = quickpickslotto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		48EF763C1BF2CC1B00891E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = quickpickslottoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = selestebraddock.quickpickslottoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = quickpickslotto;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48EF76071BF2CC1B00891E64 /* Build configuration list for PBXProject "quickpickslotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EF76321BF2CC1B00891E64 /* Debug */,
+				48EF76331BF2CC1B00891E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EF76341BF2CC1B00891E64 /* Build configuration list for PBXNativeTarget "quickpickslotto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EF76351BF2CC1B00891E64 /* Debug */,
+				48EF76361BF2CC1B00891E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EF76371BF2CC1B00891E64 /* Build configuration list for PBXNativeTarget "quickpickslottoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EF76381BF2CC1B00891E64 /* Debug */,
+				48EF76391BF2CC1B00891E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EF763A1BF2CC1B00891E64 /* Build configuration list for PBXNativeTarget "quickpickslottoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EF763B1BF2CC1B00891E64 /* Debug */,
+				48EF763C1BF2CC1B00891E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48EF76041BF2CC1B00891E64 /* Project object */;
+}

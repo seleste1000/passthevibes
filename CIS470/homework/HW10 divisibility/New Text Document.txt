@@ -1,0 +1,24 @@
+func divisibilityCheck( var N: Int , var intArray : Int...) -> Int[] {
+	
+	if N == 0{
+		println("You can't divide by zero!!!!")
+		return intArray
+
+	for (var i = 0 ; i < intArray.length ; i++ ){
+		if intArray[i] % N != 0{
+			intArray.removeAtIndex(i)
+			}
+		else{
+			//number stays in the array
+		}
+
+	}
+	println(intArray)
+
+	return intArray
+}
+
+divisibilityCheck( 11, 3, 8, 77, 153, 88, 10, 45, 121 )
+divisibilityCheck( 3, 3, 8, 77, 153, 88, 10, 45, 121 )
+divisibilityCheck( 5, 3, 8, 77, 153, 88, 10, 45, 121 )
+divisibilityCheck( 13, 3, 8, 77, 153, 88, 10, 45, 121 )
